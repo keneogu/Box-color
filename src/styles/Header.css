@@ -1,0 +1,8 @@
+.head-li {
+	cursor: pointer;
+}
+
+.head-li:hover {
+	box-shadow: whitesmoke;
+	font-weight: bold;
+}
