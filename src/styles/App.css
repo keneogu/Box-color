@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+}
+
+.red {
+  background-color: red;
+  height: 600px;
+}
+
+.blue {
+  background-color: blue;
+  height: 600px;
+}
+
+.brown {
+  background-color: brown;
+  height: 600px;
+}
+
+.black {
+  background-color: black;
+  height: 600px;
+}
