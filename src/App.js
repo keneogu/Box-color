@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import ButtonPanel from './ButtonPanel'
 
 function App() {
 
-  const [value, setValue] = React.useState('black')
+  const [value, setValue] = useState('black')
 
   const classValue = (classNameValue) => {
     if (classNameValue === 'red') {

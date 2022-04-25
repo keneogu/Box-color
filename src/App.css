@@ -1,21 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   width: 100%;
-  height: 530px;
 }
 
 .button-panel {
-  background-color: rgb(226, 164, 164);
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
+  /* background-color: rgb(226, 164, 164); */
+  /* width: 100%; */
+  /* height: fit-content; */
+  /* display: flex;
+  justify-content: space-between;
+  text-align: center; */
 }
 
 .button {
   background-color: rgb(99, 99, 93);
   width: 455px;
-  height: 100px;
+  height: 50px;
 }
 
 .red {
