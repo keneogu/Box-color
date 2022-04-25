@@ -1,29 +1,25 @@
 import React, { useState } from 'react';
-import './App.css';
-import ButtonPanel from './ButtonPanel'
+import './styles/App.css';
+import Header from './Header';
 
 function App() {
 
   const [value, setValue] = useState('black')
 
   const classValue = (classNameValue) => {
-    if (classNameValue === 'red') {
-      return classNameValue
-    }
-    if (classNameValue === 'blue') {
-      return classNameValue
-    }
-    if (classNameValue === 'brown') {
+    if (classNameValue === 'red' || 'blue' || 'brown') {
       return classNameValue
     }
   }
+
   const handleClick = (colour) => {
     setValue(classValue(colour))
   }
+
   return (
-    <div className="App">
+    <div className="app">
+      <Header clickHandle={handleClick}/>
       <div className={value} ></div>
-      <ButtonPanel clickHandle={handleClick} />
     </div>
   );
 }
